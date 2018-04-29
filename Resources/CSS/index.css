@@ -1,0 +1,71 @@
+
+
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: grey;
+  background-color: black;
+  opacity: 0.9;
+  height: auto:
+  width: 100%;
+  margin: auto;
+}
+
+ /*header CSS stuff  */
+
+.header {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+
+}
+
+.headernav span {
+   Text-decoration: underline;
+   display: inline-block;
+   padding-right: 20px;
+}
+
+
+#logo {
+  padding-left: 10px;
+  max-height: 50px;
+}
+
+
+/*main CSS code */
+
+
+.main {
+  height: auto;
+  width: auto;
+  padding-top: 61px;
+}
+
+.mainimage {
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  background-repeat: no-repeat;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mainimagetext {
+  height: 18%;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+
+
+}
