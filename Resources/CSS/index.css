@@ -1,5 +1,53 @@
 
 
+
+/*Resources*/
+.teaformat {
+max-width: 300px;
+height: auto;
+}
+
+.berry {
+background-image: url("../images/img-berryblitz.jpg");
+width: 300px;
+height: 200px;
+background-size: contain;
+}
+
+.spiced {
+  background-image: url("../images/img-spiced-rum.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+}
+
+.donut {
+  background-image: url("../images/img-donut.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+}
+
+.myrtle {
+  background-image: url("../images/img-myrtle-ave.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+}
+
+.bedford {
+  background-image: url("../images/img-bedford-bizarre.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+}
+
+h2,h4,p {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
 body {
   font-family: helvetica;
   font-size: 22px;
@@ -38,9 +86,22 @@ body {
   max-height: 50px;
 }
 
-
 /*main CSS code */
 
+.top {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.bottom {
+  width: 1000px;
+  height: auto;
+  display: flex;
+ justify-content: center;
+}
 
 .main {
   height: auto;
@@ -59,13 +120,26 @@ body {
   align-items: center;
 }
 
-
 .mainimagetext {
   height: 18%;
   background-color: black;
   width: 100%;
   text-align: center;
   padding: 0;
+}
 
+.teasection {
+  width: 1000px;
+  height: auto;
 
+  margin: auto;
+
+}
+
+#moveleft {
+  padding-right: 16px;
+}
+
+#moveright {
+  padding-left: 16px;
 }
