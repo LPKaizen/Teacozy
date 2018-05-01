@@ -42,7 +42,7 @@ background-size: contain;
   background-size: contain;
 }
 
-h2,h4,h5,p {
+h2,h3,h4,h5,p {
   display: flex;
   justify-content: center;
   padding: 0;
@@ -177,16 +177,27 @@ p {
   justify-content: center;
  background-position: bottom;
  background-size: cover;
+ 
+ background-blend-mode: darken;
 }
 
 .locationscontent {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  height: auto;
+  width: 100%;
 }
 
 .bottomcontentboxformat {
-
+width: 300px;
+height: auto;
+background-color: black;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
 }
-
 
 /* beginning of footer section */
 
@@ -196,5 +207,4 @@ width: 100%;
 margin: auto;
 display: inline-flex;
 flex-direction: column;
-
 }
