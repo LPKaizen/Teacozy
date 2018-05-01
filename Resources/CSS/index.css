@@ -42,10 +42,26 @@ background-size: contain;
   background-size: contain;
 }
 
-h2,h4,p {
+h2,h4,h5,p {
   display: flex;
   justify-content: center;
   padding: 0;
+}
+
+#nomarginhack {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom:0;
+}
+
+#numberhack {
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
 }
 
 body {
@@ -57,6 +73,10 @@ body {
   height: auto:
   width: 100%;
   margin: auto;
+}
+
+p {
+  margin-top: 10px;
 }
 
  /*header CSS stuff  */
@@ -142,4 +162,39 @@ body {
 
 #moveright {
   padding-left: 16px;
+}
+
+/*bottom section */
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: auto;
+  width: 1200px;
+  border: 1px red solid;
+  display: flex;
+  justify-content: center;
+ background-position: bottom;
+ background-size: cover;
+}
+
+.locationscontent {
+
+}
+
+.bottomcontentboxformat {
+
+}
+
+
+/* beginning of footer section */
+
+.footerstuff {
+height: 200px;
+width: 100%;
+margin: auto;
+display: inline-flex;
+flex-direction: column;
+
 }
