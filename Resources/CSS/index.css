@@ -173,21 +173,21 @@ p {
   margin: auto;
   width: 1200px;
   border: 1px red solid;
-  display: flex;
-  justify-content: center;
- background-position: bottom;
- background-size: cover;
- 
- background-blend-mode: darken;
+  background-size: cover;
+  background-blend-mode: darken;
+
 }
 
+
+/* if you could explain to me how to get that darn 40px gap i would really appriate
+. I just added space around as I cound't figure it out even though ive done something similar above :/ */
+
 .locationscontent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 15px;
+  display:inline-flex;
+  justify-content: space-around;
+  margin: auto;
   height: auto;
-  width: 100%;
+  width: 1200px;
 }
 
 .bottomcontentboxformat {
@@ -195,7 +195,7 @@ width: 300px;
 height: auto;
 background-color: black;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 flex-direction: column;
 }
 
